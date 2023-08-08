@@ -48,11 +48,11 @@ docker run -p 8080:8080 <nome-da-imagem>
    4. Digite a URL "http://localhost:8080/pokemons".
    5. Envie a requisição e veja a resposta retornada pela API.
 
-     - Tipos de Requisições:
-       - http://localhost:8080/pokemons (Retorna todos os Pokémons)
-       - http://localhost:8080/pokemons?name={namePokemon} (Retorna os Pokémos de acordo o nome que foi passado como parâmetro)
-       - http://localhost:8080/pokemons?sort={typeSort} (Retorna todos os Pokémons ordenados como o usuário decidir, podendo ser de A a Z ou de Z a A)
-       - http://localhost:8080/pokemons?name={namePokemon}&sort={typeSort} (Retorna os Pokémons filtrados de acordo com o nome que foi passado e ordenados como o usuário decidir)
-       - http://localhost:8080/pokemons/highlight (Retorna todos os Pokémons)
-       - http://localhost:8080/pokemons/highlight?name={namePokemon} (Retorna os Pokémons filtrados de acordo com o nome que foi passado com highlights)
-       - http://localhost:8080/pokemons/highlight?name={namePokemon}&sort={typeSort} (Retorna todos os Pokémons filtrados e ordenados como o usuário decidir com highlights)
+# Tipos de Requisições:
+ - http://localhost:8080/pokemons (Retorna todos os Pokémons)
+ - http://localhost:8080/pokemons?name={namePokemon} (Retorna os Pokémos de acordo o nome que foi passado como parâmetro)
+ - http://localhost:8080/pokemons?sort={typeSort} (Retorna todos os Pokémons ordenados como o usuário decidir, podendo ser de A a Z ou de Z a A)
+ - http://localhost:8080/pokemons?name={namePokemon}&sort={typeSort} (Retorna os Pokémons filtrados de acordo com o nome que foi passado e ordenados como o usuário decidir)
+ - http://localhost:8080/pokemons/highlight (Retorna todos os Pokémons)
+ - http://localhost:8080/pokemons/highlight?name={namePokemon} (Retorna os Pokémons filtrados de acordo com o nome que foi passado com highlights)
+ - http://localhost:8080/pokemons/highlight?name={namePokemon}&sort={typeSort} (Retorna todos os Pokémons filtrados e ordenados como o usuário decidir com highlights)
