@@ -46,6 +46,7 @@ docker run -p 8080:8080 <nome-da-imagem>
    2. Crie uma nova requisição.
    3. Selecione GET como método da requisição.
    4. Digite a URL "http://localhost:8080/pokemons".
+
      - Tipos de Requisições:
        - http://localhost:8080/pokemons (Retorna todos os Pokémons)
        - http://localhost:8080/pokemons?name={namePokemon} (Retorna os Pokémos de acordo o nome que foi passado como parâmetro)
@@ -54,4 +55,4 @@ docker run -p 8080:8080 <nome-da-imagem>
        - http://localhost:8080/pokemons/highlight (Retorna todos os Pokémons)
        - http://localhost:8080/pokemons/highlight?name={namePokemon} (Retorna os Pokémons filtrados de acordo com o nome que foi passado com highlights)
        - http://localhost:8080/pokemons/highlight?name={namePokemon}&sort={typeSort} (Retorna todos os Pokémons filtrados e ordenados como o usuário decidir com highlights)
-   5. Envie a requisição e veja a resposta retornada pela API.
+   6. Envie a requisição e veja a resposta retornada pela API.
