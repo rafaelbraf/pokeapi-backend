@@ -57,3 +57,6 @@ docker run -p 8080:8080 <nome-da-imagem>
  - http://localhost:8080/pokemons/highlight (Retorna todos os Pokémons)
  - http://localhost:8080/pokemons/highlight?name={namePokemon} (Retorna os Pokémons filtrados de acordo com o nome que foi passado com highlights)
  - http://localhost:8080/pokemons/highlight?name={namePokemon}&sort={typeSort} (Retorna todos os Pokémons filtrados e ordenados como o usuário decidir com highlights)
+
+## Diagrama
+![texto](https://github.com/rafaelbraf/pokeapi-backend/blob/master/diagrama-pokeapi.PNG)
