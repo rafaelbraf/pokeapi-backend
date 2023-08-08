@@ -28,7 +28,7 @@ cd backendchallenger
 ```bash
 docker build -t <nome-da-imagem> .
 ```
-- Obs: Em <nome-da-imagem> escolha o nome que deseja dar a imagem. Por exemplo: poke-api-backend.
+- Obs: Em "<nome-da-imagem>" escolha o nome que deseja dar a imagem. Por exemplo: poke-api-backend.
 
 
 
