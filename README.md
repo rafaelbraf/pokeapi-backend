@@ -21,7 +21,7 @@ Agora que você possui o repositório em sua máquina, siga estas etapas para ge
 
 1. Navegue para o diretório do projeto:
 ```bash
-cd backendchallenger
+cd pokeapi-backend
 ```
 
 2. Construa a imagem Docker executando o seguinte comando:
