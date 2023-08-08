@@ -30,7 +30,7 @@ docker build -t <nome-da-imagem> .
 ```
 - Obs: Em "nome-da-imagem" escolha o nome que deseja dar a imagem. Por exemplo: poke-api-backend.
 
-O ponto final . indica que você está executando o comando no diretório atual, onde está localizado o Dockerfile.
+   O ponto final . indica que você está executando o comando no diretório atual, onde está localizado o Dockerfile.
 
 3. Uma vez que a construção seja concluída, você pode executar um contêiner baseado na imagem gerada com o seguinte comando:
 ```bash
@@ -42,10 +42,10 @@ docker run -p 8080:8080 <nome-da-imagem>
 4. Use o Postman ou Insomnia
 
 Agora você pode usar o Postman ou o Insomnia para fazer requisições à API da aplicação:
-  1. Abra o Postman ou o Insomnia.
-  2. Crie uma nova requisição.
-  3. Selecione GET como método da requisição.
-  4. Digite a URL "http://localhost:8080/pokemons".
+   1. Abra o Postman ou o Insomnia.
+   2. Crie uma nova requisição.
+   3. Selecione GET como método da requisição.
+   4. Digite a URL "http://localhost:8080/pokemons".
      - Tipos de Requisições:
        - http://localhost:8080/pokemons (Retorna todos os Pokémons)
        - http://localhost:8080/pokemons?name={namePokemon} (Retorna os Pokémos de acordo o nome que foi passado como parâmetro)
