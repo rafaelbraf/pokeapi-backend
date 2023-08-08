@@ -1,4 +1,4 @@
-# Poké API - BackEnd
+# Poké API - BackEnd ![icone-pokedex](https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fpokemon.fandom.com%2Fpt-br%2Fwiki%2FPok%25C3%25A9dex&psig=AOvVaw26nBWKvVRET0JUZ9HK8_Eo&ust=1691543311102000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDf_Yjwy4ADFQAAAAAdAAAAABAD)
 
 ## Pré-requisitos
 
