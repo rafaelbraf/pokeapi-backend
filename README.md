@@ -48,7 +48,8 @@ docker run -p 8080:8080 <nome-da-imagem>
    4. Digite a URL "http://localhost:8080/pokemons".
    5. Envie a requisição e veja a resposta retornada pela API.
 
-# Tipos de Requisições:
+
+## Tipos de Requisições:
  - http://localhost:8080/pokemons (Retorna todos os Pokémons)
  - http://localhost:8080/pokemons?name={namePokemon} (Retorna os Pokémos de acordo o nome que foi passado como parâmetro)
  - http://localhost:8080/pokemons?sort={typeSort} (Retorna todos os Pokémons ordenados como o usuário decidir, podendo ser de A a Z ou de Z a A)
