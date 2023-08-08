@@ -13,3 +13,22 @@ Para começar, clone este repositório para sua máquina local. Abra o terminal 
 
 ```bash
 git clone https://github.com/rafaelbraf/pokeapi-backend.git
+```
+
+## Gerando a Imagem Docker
+
+Agora que você possui o repositório em sua máquina, siga estas etapas para gerar a imagem Docker:
+
+1. Navegue para o diretório do projeto:
+```bash
+cd backendchallenger
+```
+
+2. Construa a imagem Docker executando o seguinte comando:
+```bash
+docker build -t <nome-da-imagem> .
+```
+- Obs: Em <nome-da-imagem> escolha o nome que deseja dar a imagem. Por exemplo: poke-api-backend.
+
+
+
